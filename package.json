@@ -1,0 +1,27 @@
+{
+  "name": "hambackend",
+  "version": "1.0.0",
+  "description": "backend server for node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doncurt/hambackend.git"
+  },
+  "keywords": [
+    "hamsterhweel"
+  ],
+  "author": "Donovan Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doncurt/hambackend/issues"
+  },
+  "homepage": "https://github.com/Doncurt/hambackend#readme",
+  "dependencies": {
+    "auth0-api-jwt-rsa-validation": "0.0.1",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0"
+  }
+}
